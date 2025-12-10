@@ -1,19 +1,21 @@
 
+/* Light Theme */
 :root {
-  --primary-color: #3498db;
-  --secondary-color: #2ecc71;
-  --background-color: #f4f6f8;
+  --primary-color: #0277bd;
+  --secondary-color: #2e7d32;
+  --background-color: #e0f7fa;
   --surface-color: #ffffff;
-  --text-color: #2c3e50;
+  --text-color: #01579b;
   --font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
 }
 
+/* Dark Theme */
 body.dark-theme {
-  --primary-color: #2980b9;
-  --secondary-color: #27ae60;
-  --background-color: #1e272e;
-  --surface-color: #2c3a47;
-  --text-color: #ecf0f1;
+  --primary-color: #ab47bc;
+  --secondary-color: #6a1b9a;
+  --background-color: #121212;
+  --surface-color: #1e1e1e;
+  --text-color: #f3e5f5;
 }
 
 body {
@@ -23,4 +25,9 @@ body {
   margin: 0;
   padding: 0;
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ngx-charts dark mode fix */
+body.dark-theme .ngx-charts text {
+  fill: var(--text-color);
 }
