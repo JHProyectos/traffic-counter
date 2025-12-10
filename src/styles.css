@@ -1,21 +1,21 @@
-/* Cache-busting comment: 2024-07-29-1 */
+/* Cache-busting comment: 2024-07-29-2 */
 /* Light Theme */
 :root {
-  --primary-color: #0277bd; /* Blue */
-  --secondary-color: #2e7d32; /* Green */
-  --background-color: #e0f7fa; /* Light Cyan */
-  --surface-color: #ffffff;
-  --text-color: #01579b; /* Dark Blue */
-  --font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+  --primary-color: #0277bd !important; /* Blue */
+  --secondary-color: #2e7d32 !important; /* Green */
+  --background-color: #e0f7fa !important; /* Light Cyan */
+  --surface-color: #ffffff !important;
+  --text-color: #01579b !important; /* Dark Blue */
+  --font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif !important;
 }
 
 /* Dark Theme */
 body.dark-theme {
-  --primary-color: #4FC3F7;    /* Light Blue */
-  --secondary-color: #81C784;  /* Light Green */
-  --background-color: #121212;
-  --surface-color: #1e1e1e;
-  --text-color: #e0f7fa;      /* Light Cyan */
+  --primary-color: #4FC3F7 !important;    /* Light Blue */
+  --secondary-color: #81C784 !important;  /* Light Green */
+  --background-color: #121212 !important;
+  --surface-color: #1e1e1e !important;
+  --text-color: #e0f7fa !important;      /* Light Cyan */
 }
 
 body {
