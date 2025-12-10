@@ -25,8 +25,7 @@
               }
             ],
             "styles": [
-              "src/styles.css",
-              "src/app/theme.css"
+              "src/styles.css"
             ],
             "allowedCommonJsDependencies": [
               "@swimlane/ngx-charts"
@@ -46,7 +45,8 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "serviceWorker": "ngsw-config.json"
             },
             "development": {
               "optimization": false,

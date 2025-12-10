@@ -80,3 +80,10 @@
     </div>
   }
 </main>
+
+@if (pwaService.isInstallable()) {
+  <app-install-prompt 
+    (install)="installPwa()" 
+    (dismiss)="dismissPwaPrompt()"
+  ></app-install-prompt>
+}
