@@ -1,0 +1,18 @@
+/* Light Theme */
+:root {
+  --primary-color: #6a1b9a;
+  --secondary-color: #ab47bc;
+  --background-color: #f3e5f5;
+  --surface-color: #ffffff;
+  --text-color: #4a148c;
+  --font-family: 'Roboto', sans-serif;
+}
+
+/* Dark Theme */
+.dark-theme {
+  --primary-color: #ab47bc;
+  --secondary-color: #6a1b9a;
+  --background-color: #121212;
+  --surface-color: #1e1e1e;
+  --text-color: #f3e5f5;
+}
