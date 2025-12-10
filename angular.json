@@ -27,6 +27,9 @@
             "styles": [
               "src/styles.css",
               "src/app/theme.css"
+            ],
+            "allowedCommonJsDependencies": [
+              "@swimlane/ngx-charts"
             ]
           },
           "configurations": {
